@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public int EnemyNumber;
-    public GameObject LevelText;
-    public GameObject textMeshPro;
+    public int EnemyNumber; //敵の数字(Unityで設定)
+    public GameObject LevelText; //数字のテキスト
+    public GameObject textMeshPro;  //テキストの導入
     // Start is called before the first frame update
     void Start()
     {
@@ -22,19 +22,19 @@ public class Enemy : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)             // 衝突判定
     {
-        if (other.gameObject.CompareTag("Player")) 
+        if (other.gameObject.CompareTag("Player"))              //"Player"のタグを持つをプレイヤーにぶつかったとき
         {
-            if (PlayerController.PlayerNumber > EnemyNumber)
+            if (PlayerController.PlayerNumber > EnemyNumber)    //プレイヤーの数字が敵の数字より大きかったとき
             {
-                PlayerController.PlayerNumber += EnemyNumber;
-                Destroy(this.gameObject);
-                Destroy(textMeshPro);
+                PlayerController.PlayerNumber += EnemyNumber;   //プレイヤーの数字に敵の数字を加算する
+                Destroy(this.gameObject);                       //敵のオブジェクトを削除する
+                Destroy(textMeshPro);                           //テキストを削除する
             }
-            else
+            else                                                //プレイヤーの数字が敵の数字が大きくなかったとき
             {
-                SceneManager.LoadScene("GameOverScene");
+                SceneManager.LoadScene("GameOverScene");        //ゲームオーバーシーンに移動する
             }
         }
     }

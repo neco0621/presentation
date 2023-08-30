@@ -18,8 +18,8 @@ public class Button : MonoBehaviour
     {
         
     }
-    public void OnClick()
+    public void OnClick() //ボタンを押したとき
     {
-        SceneManager.LoadScene("titleScene");
+        SceneManager.LoadScene("titleScene"); //タイトルシーンに移動する
     }
 }
