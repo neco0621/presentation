@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -11,7 +12,18 @@ public class PlayerController : MonoBehaviour
     public GameObject player;   //①移動させたいオブジェクト
     Vector3 touchWorldPosition;　//②マウスでタッチした箇所の座標を取得
     public int speed = 5; //動くスピード
-    
+    public Text text;
+    Camera cam;
+    Vector2 setPos;
+
+    void Start()
+    {
+        text.text = PlayerNumber.ToString();
+
+        cam = Camera.main;
+    }
+
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))  //左クリックでif分起動
@@ -26,5 +38,13 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("GameClearScene"); //ゲームクリアシーンに移動する
         }
+    }
+
+    void FixedUpdate()
+    {
+        //setPos = cam.WorldToScreenPoint(player.transform.position);
+        setPos = player.transform.position;
+        setPos.y += 2f;
+        text.transform.position = setPos;
     }
 }
