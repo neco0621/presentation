@@ -5,10 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
 
-    public static int PlayerNumber = 5; //プレイヤーの数字
+    public static int PlayerNumber = 80; //プレイヤーの数字
     public GameObject player;   //①移動させたいオブジェクト
     Vector3 touchWorldPosition;　//②マウスでタッチした箇所の座標を取得
     public int speed = 5; //動くスピード
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
             touchWorldPosition = camera.ScreenToWorldPoint(touchScreenPosition);  //②
         }
         player.transform.position = Vector3.MoveTowards(player.transform.position, touchWorldPosition, speed * Time.deltaTime); //playerオブジェクトが, 目的地に移動, 移動速度
-        if (PlayerNumber >= 40) //プレイヤーの数字が40を超えたとき(すべての敵を倒したとき)
+        if (PlayerNumber <= 1) //プレイヤーの数字が40を超えたとき(すべての敵を倒したとき)
         {
             SceneManager.LoadScene("GameClearScene"); //ゲームクリアシーンに移動する
         }

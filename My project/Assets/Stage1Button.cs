@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButton : MonoBehaviour
+public class Stage1Button : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,9 +12,10 @@ public class StartButton : MonoBehaviour
     }
     public void OnClick()
     {
-        SceneManager.LoadScene("StageSelect");
+        SceneManager.LoadScene("SampleScene");
         PlayerController.PlayerNumber = 5;
     }
+
     // Update is called once per frame
     void Update()
     {
