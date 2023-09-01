@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 149912073}
   - component: {fileID: 149912072}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Stage1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 880263207}
   - component: {fileID: 880263206}
   m_Layer: 0
-  m_Name: "\u9EC4220"
+  m_Name: StageSelect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 1457606265}
   - component: {fileID: 1457606264}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: Stage2Select
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

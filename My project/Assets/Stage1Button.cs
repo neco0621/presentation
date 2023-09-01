@@ -12,7 +12,7 @@ public class Stage1Button : MonoBehaviour
     }
     public void OnClick()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Stage1");
         PlayerController.PlayerNumber = 5;
     }
 

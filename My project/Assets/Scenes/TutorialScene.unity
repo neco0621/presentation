@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 129441671}
   - component: {fileID: 129441670}
   m_Layer: 5
-  m_Name: "\u6570\u5B57"
+  m_Name: Number1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 152261899}
   - component: {fileID: 152261898}
   m_Layer: 5
-  m_Name: "\u6570\u5B57 (5)"
+  m_Name: Number6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 174614895}
   - component: {fileID: 174614894}
   m_Layer: 5
-  m_Name: Button
+  m_Name: TitleButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 254615046}
   - component: {fileID: 254615045}
   m_Layer: 0
-  m_Name: "\u732B (4)"
+  m_Name: Enemy5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -611,7 +611,7 @@ GameObject:
   - component: {fileID: 270477530}
   - component: {fileID: 270477529}
   m_Layer: 5
-  m_Name: "\u6570\u5B57 (4)"
+  m_Name: Number5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 286605673}
   - component: {fileID: 286605672}
   m_Layer: 5
-  m_Name: "\u6570\u5B57 (3)"
+  m_Name: Number4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 477606877}
   - component: {fileID: 477606876}
   m_Layer: 0
-  m_Name: "\u732B (1)"
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 795823964}
   - component: {fileID: 795823963}
   m_Layer: 0
-  m_Name: "\u732B (2)"
+  m_Name: Enemy3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 899334344}
   - component: {fileID: 899334343}
   m_Layer: 0
-  m_Name: "\u732B (3)"
+  m_Name: Enemy4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1175,7 +1175,7 @@ GameObject:
   - component: {fileID: 1064868798}
   - component: {fileID: 1064868797}
   m_Layer: 5
-  m_Name: "\u6570\u5B57 (2)"
+  m_Name: Number3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1365,7 +1365,7 @@ GameObject:
   - component: {fileID: 1239614089}
   - component: {fileID: 1239614088}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: 'TitleText '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1412,7 +1412,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 5028eeb58967d4e4f987ab190e1764cc, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1445,7 +1445,7 @@ GameObject:
   - component: {fileID: 1265507230}
   - component: {fileID: 1265507229}
   m_Layer: 5
-  m_Name: "Timer\u8AAC\u660E"
+  m_Name: TimerTutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,8 +1468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451.61, y: 255.13}
-  m_SizeDelta: {x: 376.7769, y: 72.9992}
+  m_AnchoredPosition: {x: -414.13, y: 244.32}
+  m_SizeDelta: {x: 373.8941, y: 94.6203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265507229
 MonoBehaviour:
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 5028eeb58967d4e4f987ab190e1764cc, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -1608,7 +1608,7 @@ GameObject:
   - component: {fileID: 1663726986}
   - component: {fileID: 1663726985}
   m_Layer: 5
-  m_Name: "\u4E3B\u4EBA\u516C\u8AAC\u660E"
+  m_Name: PlayerTutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1631,8 +1631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517, y: 89.707}
-  m_SizeDelta: {x: 454.3675, y: 37.6193}
+  m_AnchoredPosition: {x: 6.4864, y: 94.0312}
+  m_SizeDelta: {x: 467.3401, y: 46.2677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663726985
 MonoBehaviour:
@@ -1655,7 +1655,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 5028eeb58967d4e4f987ab190e1764cc, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 1723507264}
   - component: {fileID: 1723507263}
   m_Layer: 0
-  m_Name: "\u4E3B\u4EBA\u516C"
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1772,7 +1772,7 @@ GameObject:
   - component: {fileID: 2018751715}
   - component: {fileID: 2018751714}
   m_Layer: 5
-  m_Name: "\u6570\u5B57 (1)"
+  m_Name: Number2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1851,7 +1851,7 @@ GameObject:
   - component: {fileID: 2068661105}
   - component: {fileID: 2068661104}
   m_Layer: 0
-  m_Name: "\u732B"
+  m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
